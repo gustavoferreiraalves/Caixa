@@ -8,12 +8,28 @@
        *{
         margin: 0px;
         padding: 0px;
+        list-style: none;
+        font-family: sans-serif;
+        font-color
        }
-        
+
+       .imagem{
+        width: 600px;
+        height: :auto;
+
+       }
+
+       .imagem-exame-chunin{
+        width: 500px;
+        height: auto;
+       }
+        .padrao{
+            height: 150px;
+            width: none;
+
+        }
        #caixa1{
-       height: 100px;
-        width: 100px;
-        background-color: blue;
+        background-color: rgb(255, 230, 0);
         
        }
         #caixa2{
@@ -21,13 +37,67 @@
             width: 50px;
             background-color: black;
 
-        
+       }
+       header {
+        padding-top: 30px;
+        height: 120px;
+        background-color: rgb(231, 217, 12);
+       }
 
+       main {
+        margin-left: 40px;
+        margin-right: 40px;
+        background-color: rgb(255, 166, 0);
+       }
+
+       ul {
+        padding-left: 30px;
+       }
+
+       li {
+        display: inline-block;
+        padding-left: 30px;
+
+       }
+
+       section{
+        margin: 10px;
        }
     </style>
 </head>
 <body>
-    <div id="caixa1"><div id="caixa2"></div></div>
     
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Produtos</a></li>
+                <li><a href="">Solucoes</a></li>
+                <li><a href="">Casos de sucesso</a></li>
+                <li><a href="">Serviços</a></li>
+                <li><a href="">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Naruto Uzumaki</h1>
+            <p>Naruto Uzumaki é um ninja rejeitado que guardava um monstro dentro de si, mas superou o isolamento para se tornar o maior herói do mundo e o líder (Hokage) de sua vila.</p>
+            <img class="imagem"  src="./imagens/Naruto.jpg" alt="">
+            <section>
+            </section>
+            <h1>Noticias sobre o exame chunin</h1>
+            <p>O Exame Chunin é uma avaliação militar do universo de Naruto que serve para testar as habilidades de ninjas iniciantes (Genin) e promovê-los ao posto de Chunin (líderes de equipe).</p>
+            <img src="./imagens/exame chunin.jpeg" alt="" class="imagem">
+            <section>
+                <h2>Se inscreva no exame chunin</h2>
+                <form action="">
+                 <label for="">Escreva seu nome</label>
+                  <input type="text"><br>
+                  <label for="">Email</label>
+                  <input type="email"><br>
+                  <button>Clique aqui</button>
+                </form>
+            </section>
+
 </body>
 </html>
